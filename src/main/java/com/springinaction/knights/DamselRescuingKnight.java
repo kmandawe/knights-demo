@@ -7,7 +7,7 @@ public class DamselRescuingKnight implements Knight {
     quest = new RescueDamselQuest();
   }
 
-  public void embarkOnQuest() throws QuestException {
+  public void embarkOnQuest() {
     quest.embark();
   }
 }
