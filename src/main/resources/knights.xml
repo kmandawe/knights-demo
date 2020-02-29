@@ -9,6 +9,6 @@
   </bean>
 
   <bean id="quest"
-        class="com.springinaction.knights.SlayDragonQuest" />
+        class="com.springinaction.knights.RescueDamselQuest" />
       
 </beans>
