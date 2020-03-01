@@ -6,9 +6,13 @@
 
   <bean id="knight" class="com.springinaction.knights.BraveKnight">
     <constructor-arg ref="quest" />
+    <constructor-arg ref="minstrel" />
   </bean>
 
   <bean id="quest"
         class="com.springinaction.knights.MakeRoundTableRounderQuest" />
+
+  <bean id="minstrel"
+    class="com.springinaction.knights.Minstrel" />
       
 </beans>
