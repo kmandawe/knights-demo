@@ -8,9 +8,8 @@ public class BraveKnightTest {
   @Test
   public void knightShouldEmbarkOnQuest() throws QuestException {
     Quest mockQuest = mock(Quest.class);
-    Minstrel mockMinstrel = mock(Minstrel.class);
 
-    BraveKnight knight = new BraveKnight(mockQuest, mockMinstrel);
+    BraveKnight knight = new BraveKnight(mockQuest);
     knight.embarkOnQuest();
 
     verify(mockQuest, times(1)).embark();
